@@ -9,4 +9,8 @@ def right_click(event):
 root = Tk()
 
 frame = Frame(root, width = 200, height=200)
-frame.
+frame.bind("<Button-1>", left_click)
+frame.bind("<Button-1>", right_click)
+frame.pack()
+
+root.mainloop()

@@ -1,3 +1,4 @@
+# 01번 해설
 class DSstudent:
     def __init__(self, stu_id, name):
         self.stu_id = stu_id
